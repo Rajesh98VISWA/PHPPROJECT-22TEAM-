@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mess.xsl"?>
+<!DOCTYPE foodmenu [
+<!ELEMENT foodmenu (menu*)>
+<!ELEMENT menu (itemname,description,price,category,hotelname,address)>
+<!ELEMENT itemname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT hotelname (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>
+<foodmenu>
+    <menu>
+        <itemname>Idly</itemname>
+        <description>Great South Indian idly</description>
+        <price>20.00</price>
+        <category>Tiffin</category>
+        <hotelname>seethayya grand</hotelname>
+        <address>a-156/720,juvvalapalam road, bhimavaram</address>
+    </menu>
+    <menu>
+        <itemname>mini Biriyani</itemname>
+        <description>mini biriyani tasty food in bhimavaram</description>
+        <price>120.00</price>
+        <category>Biriyani</category>
+        <hotelname>Suprabath</hotelname>
+        <address>a-256/520,Akuveedu  road,opposite to geetha multiplex, bhimavaram</address>
+    </menu>
+    <menu>
+        <itemname>special Biriyani</itemname>
+        <description>hyderabadi special biriyani with special chicken curry</description>
+        <price>240.00</price>
+        <category>Biriyani</category>
+        <hotelname>Shahi Darbar Hyderabadi biriyani point</hotelname>
+        <address>b-949/744,behind spencers,jp road bhimavaram</address>
+    </menu>
+</foodmenu>
